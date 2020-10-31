@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: "koodak";
+	margin: auto 0px;
+	direction: rtl;
+	background: url(../1p02edqs7d341.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header{
+	min-height: 150px;
+	width: 100%;
+	background: rgba(225,225,225,0.90);
+}
+.header h1{
+	color:#184AD3;
+	text-align: center;
+	padding-top: 10px;
+}
+.text{
+	font-size: 20px;
+	color: #184AD3;
+	text-align: center;
+	padding: 20px;
+	
+}
+.div1{
+	height: 100px;
+	width: 90%;
+	margin: 20px 5%;
+	background:rgba(195,195,195,0.75);
+	border-radius: 10px;
+}
+.div1:hover{
+	background:rgba(195,195,195,1.00);
+	transition: all 0.5s
+}
+.div2{
+	height: 100px;
+	width: 90%;
+	margin: 20px 5%;
+	background:rgba(10,143,0,0.60);
+	border-radius: 10px;
+}
+.div2:hover{
+	background:rgba(10,143,0,1.00);
+	transition: all 0.5s;
+}
+.div3{
+	height: 100px;
+	width: 90%;
+	margin: 20px 5%;
+	background:rgba(195,16,19,0.60);
+	border-radius: 10px;
+}
+.div3:hover{
+	background:rgba(195,16,19,1.00);
+	transition: all 0.5s
+}
+.div4{
+	height: 100px;
+	width: 90%;
+	margin: 20px 5%;
+	background:rgba(32,78,224,0.60);
+	border-radius: 10px;
+}
+.div4:hover{
+	background:rgba(32,78,224,1.00);
+	transition: all 0.5s
+}
+.text{
+	color:#2F2F2F;
+}
