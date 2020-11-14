@@ -164,34 +164,34 @@ footer{
 	color: aliceblue;
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1190px){
 
-    .main-box{
-        grid-template-columns: 1fr 1fr;
-    }
-    .container{
-        grid-template-columns: 1fr 2fr;
-    }
+    	.main-box{
+        	grid-template-columns: 1fr 1fr;
+    	}
+    	.container{
+        	grid-template-columns: 1fr 2fr;
+    	}
 }
 
 @media screen and (max-width: 800px){
 
-    .container{
-        grid-template-columns: 1fr;
-    }
-    .main-box{
-        grid-template-columns: 1fr 1fr;
-    }
+    	.container{
+	      grid-template-columns: 1fr;
+	}
+    	.main-box{
+        	grid-template-columns: 1fr 1fr;
+    	}
 }
 
 @media screen and (max-width: 500px){
 
-    .container{
-        grid-template-columns: 1fr;
-    }
-    .main-box{
-        grid-template-columns: 1fr;
-    }
+    	.container{
+        	grid-template-columns: 1fr;
+   	 }
+    	.main-box{
+   	     grid-template-columns: 1fr;
+	}
 	.content{
 		height: 500px;
 	}
