@@ -1,9 +1,14 @@
 //java-script
-console.log(document.getElementById('my-header'));
-let headerTitle = document.getElementById('my-header');
-let title = document.getElementById('title-content');
-console.log(headerTitle);
-headerTitle.textContent = 'حسینعلی حسینی';
-title.innerText = 'تمرین 2';
-console.log(headerTitle.innerText);
-title.style.borderBottom = 'solid 3px #000';
+var items = document.getElementsByClassName('title-content');
+console.log(items);
+console.log(items[1]);
+items[1].textContent = 'Hello 2';
+items[1].style.fontWeight = 'bold';
+items[1].style.backgroundColor = 'yellow';
+
+// Gives error
+//items.style.backgroundColor = '#f4f4f4';
+
+for(var i = 0; i < items.length; i++){
+  items[i].style.backgroundColor = '#f4f4f4';
+}
